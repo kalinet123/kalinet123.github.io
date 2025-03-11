@@ -164,10 +164,10 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contacto</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Correo electrónico" required>
-            <textarea placeholder="Mensaje" required></textarea>
+        <form action="https://formspree.io/f/maneydlz" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="correo" placeholder="Correo electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
             <button type="submit" class="btn">Enviar mensaje</button>
         </form>
     </section>
